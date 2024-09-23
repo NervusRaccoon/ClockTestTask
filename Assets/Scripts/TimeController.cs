@@ -8,7 +8,7 @@ public class TimeController : MonoBehaviour
 {
     public Action OneHourPassed;
 
-    private const int ONE_HOUR_TIME = 10;
+    private const int ONE_HOUR_TIME = 3600;
 
     public void StartOneHourTimer()
     {
