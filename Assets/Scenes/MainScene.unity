@@ -855,6 +855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1307636744}
   - component: {fileID: 1307636743}
+  - component: {fileID: 1307636747}
   - component: {fileID: 1307636745}
   - component: {fileID: 1307636746}
   m_Layer: 0
@@ -876,6 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590e5a3f53e154547850c74091e7e883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeController: {fileID: 1307636747}
   _arrowsController: {fileID: 1307636745}
   _digitClockController: {fileID: 1307636746}
 --- !u!4 &1307636744
@@ -921,6 +923,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timerText: {fileID: 1418205321}
+--- !u!114 &1307636747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307636742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794af3449dcbe8c49982c53dbea689f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1418205319
 GameObject:
   m_ObjectHideFlags: 0

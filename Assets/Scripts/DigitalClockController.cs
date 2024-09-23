@@ -33,6 +33,11 @@ public class DigitalClockController : MonoBehaviour
         _timerText.text = _time.ToLongTimeString();
     }
 
+    public DateTime GetDigitClockTime()
+    {
+        return _time;
+    }
+
     public void StopAndClearAnimation()
     {
         StopAllCoroutines();
